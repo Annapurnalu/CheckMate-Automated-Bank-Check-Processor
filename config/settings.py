@@ -12,5 +12,5 @@ DB_CONFIG = {
     "database": os.getenv("DB_NAME", "chequedb"),
 }
 
-genai.configure(api_key="AIzaSyCJweqKO1Yv8mMqbfIMlb0Ykqnub7sYT88")
+genai.configure(api_key="your gemini api key")
 model = genai.GenerativeModel("gemini-2.0-flash")
