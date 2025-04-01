@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyCJweqKO1Yv8mMqbfIMlb0Ykqnub7sYT88")
+genai.configure(api_key="your gemini api key")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 def get_api_response(image_content):
